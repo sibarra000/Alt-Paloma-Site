@@ -7,19 +7,15 @@ export function LogoGrid() {
     { name: 'Google', category: 'Gemini', hoverColor: '#FF6B35' },
     { name: 'Meta', category: 'Llama', hoverColor: '#00FF88' },
     { name: 'Mistral', category: 'Mistral AI', hoverColor: '#9D4EDD' },
-    { name: 'Cohere', category: 'Command', hoverColor: '#F0FF00' },
-    { name: 'xAI', category: 'Grok', hoverColor: '#00FFF0' },
-    { name: 'Perplexity', category: 'Sonar', hoverColor: '#FF3366' },
-    { name: 'Together', category: 'Together AI', hoverColor: '#CCFF00' },
   ];
 
   return (
     <section id="integrations" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-7">
         <h2 className="text-[60px] md:text-[80px] leading-[0.9] tracking-tight text-[#1A1A1A] uppercase mb-16 text-center">
-          YOUR SHORTCUT TO
-          <br />
           AI INNOVATION
+          <br />
+          MADE SIMPLE
         </h2>
         
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto">
@@ -34,7 +30,9 @@ export function LogoGrid() {
                 e.currentTarget.style.backgroundColor = integration.hoverColor;
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = '#1A1A1A';
+                e.currentTarget.style.backgroundColor = 'rgba(26, 26, 26, 1)';
+              
+
               }}
             >
               <div className="text-2xl opacity-80 uppercase tracking-wide">
@@ -47,9 +45,7 @@ export function LogoGrid() {
           ))}
         </div>
         
-        <p className="text-center text-[#1A1A1A]/40 mt-12 text-sm uppercase tracking-wide">
-          Replace placeholders with actual partner logos (PNG files)
-        </p>
+    
       </div>
     </section>
   );

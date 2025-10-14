@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Button } from './components/ui/button';
 import { Hero } from './components/Hero';
-import { LogoGrid } from './components/LogoGrid';
+import { LogoGrid } from './components/logogrid';
 import { Benefits } from './components/Benefits';
 import { Features } from './components/Features';
 import { ContactForm } from './components/ContactForm';
 import { Toaster } from './components/ui/sonner';
-import logoSymbol from 'figma:asset/31f930a355888a6b2f87c26a540ce31ce4ef9940.png';
+import logoSymbol from './assets/31f930a355888a6b2f87c26a540ce31ce4ef9940.png';
 
 export default function App() {
   const [currentView, setCurrentView] = useState<'overview' | 'features'>('overview');
