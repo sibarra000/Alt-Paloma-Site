@@ -23,7 +23,7 @@ export default function App() {
             <div className="flex items-center gap-3 cursor-pointer" onClick={() => setCurrentView('overview')}>
               <img 
                 src={logoSymbol} 
-                alt="Paloma Logo" 
+                alt="Paloma logo" 
                 className="h-8 w-auto"
               />
               <span className="text-2xl tracking-tight text-[#1A1A1A]">
