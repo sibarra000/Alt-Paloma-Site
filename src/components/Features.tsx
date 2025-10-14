@@ -4,18 +4,14 @@ import { Check } from 'lucide-react';
 
 export function Features() {
   const features = [
-    { name: 'Smart Caching', status: 'Beta', description: 'Reduce costs by up to 80% with intelligent response caching' },
+    { name: 'Smart Caching', status: 'Beta', description: 'Reduce costs with intelligent response caching' },
     { name: 'Load Balancing', status: 'Live', description: 'Automatic distribution across providers for optimal performance' },
     { name: 'Failover Protection', status: 'Live', description: 'Seamless switching when primary models are unavailable' },
     { name: 'Usage Analytics', status: 'Live', description: 'Detailed insights into model performance and costs' },
     { name: 'Custom Rate Limits', status: 'Live', description: 'Set spending caps and request limits per model' },
     { name: 'Multi-Region Support', status: 'Coming Soon', description: 'Deploy across global regions for lower latency' },
-    { name: 'Prompt Templates', status: 'Beta', description: 'Reusable templates with version control' },
     { name: 'A/B Testing', status: 'Coming Soon', description: 'Compare model outputs side-by-side' },
-    { name: 'Fine-Tuning', status: 'Coming Soon', description: 'Train custom models on your data' },
-    { name: 'Webhook Integration', status: 'Live', description: 'Real-time notifications for events and completions' },
-    { name: 'Team Collaboration', status: 'Beta', description: 'Share API keys and usage across teams' },
-    { name: 'SOC 2 Compliance', status: 'In Progress', description: 'Enterprise-grade security certification' },
+    { name: 'Webhook Integration', status: 'Coming Soon', description: 'Real-time notifications for events and completions' },
   ];
 
   const getStatusColor = (status: string) => {
