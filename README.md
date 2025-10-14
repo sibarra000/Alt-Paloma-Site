@@ -1,7 +1,7 @@
 
-  # Single-Page Landing Website
+  # Paloma
 
-  This is a code bundle for Single-Page Landing Website. The original project is available at https://www.figma.com/design/lUEYgJTS3C4SHRVG7oAWrj/Single-Page-Landing-Website.
+  This is a code bundle for Palomas Website. The original project is available at https://www.figma.com/design/lUEYgJTS3C4SHRVG7oAWrj/Single-Page-Landing-Website.
 
   ## Running the code
 
