@@ -10,7 +10,7 @@ export function Hero() {
     }
   };
 
-  const text = "Unify your great AI workflow. Access every major language model through one powerful interface. No more juggling APIs or wrestling with complexity.";
+  const text = "Unify your AI workflow. Access every major language model through one powerful interface. No more juggling APIs or wrestling with complexity.";
   const words = text.split(' ');
 
   return (
